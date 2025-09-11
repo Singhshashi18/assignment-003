@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# AI Next.js Project
+ 
+This project is a modern Next.js app using TypeScript, Tailwind CSS, ESLint, and the App Router. It is ready for AI integration (e.g., OpenAI API).
+
+## Features
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- ESLint
+- Import alias: `@/*`
+- Ready for AI features
+
+## Getting Started
+
+1. Install dependencies (if not already):
+	```sh
+	npm install
+	```
+2. Run the development server:
+	```sh
+	npm run dev
+	```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## AI Integration
+- To add AI features, integrate with APIs like OpenAI in the `src/app` directory.
+
+## Customization
+- Update styles in `tailwind.config.js` and `src/app/globals.css`.
+- Add new pages/components in `src/app`.
+
+---
+
+Replace this README with project-specific details as you build your app.
 
 ## Getting Started
 

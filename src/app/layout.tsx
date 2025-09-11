@@ -24,9 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <nav className="bg-gray-100 p-4 mb-4">
+          <a href="/ai-chat" className="text-blue-600 font-semibold">AI Chat Demo</a>
+        </nav>
         {children}
       </body>
     </html>
