@@ -1,6 +1,6 @@
 
 # AI Next.js Project
- 
+    
 This project is a modern Next.js app using TypeScript, Tailwind CSS, ESLint, and the App Router. It is ready for AI integration (e.g., OpenAI API).
 
 ## Features
