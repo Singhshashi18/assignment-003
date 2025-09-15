@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 export default function AIChat() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(""); 
   const [messages, setMessages] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
 
